@@ -15,7 +15,7 @@ From Grid'5000 don't forget to setup the http proxy
 
 #### with curl
 
-	curl https://raw.github.com/pmorillon/grid5000-zsh-plugin/master/tools/install.sh | zsh
+	curl https://raw.github.com/sbadia/grid5000-zsh-plugin/master/tools/install.sh | zsh
 
 #### with wget
 
