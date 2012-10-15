@@ -18,7 +18,7 @@ then
 fi
 
 echo "\033[0;34mCloning Grid'5000 zsh plugin...\033[0m"
-hash git >/dev/null && /usr/bin/env git clone https://github.com/pmorillon/grid5000-zsh-plugin.git ~/.oh-my-zsh/custom/plugins/grid5000 || {
+hash git >/dev/null && /usr/bin/env git clone https://github.com/sbadia/grid5000-zsh-plugin.git ~/.oh-my-zsh/custom/plugins/grid5000 || {
   echo "git not installed"
   exit
 }
@@ -29,4 +29,3 @@ then
   echo "\033[0;32mCreating the grid5000 theme alias...\033[0m"
   ln -s ./plugins/grid5000/grid5000.zsh-theme ~/.oh-my-zsh/custom/grid5000.zsh-theme
 fi
-
