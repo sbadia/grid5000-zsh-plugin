@@ -3,7 +3,7 @@ gadm () {
 }
 
 gfront () {
-  ssh pmorillo@frontend.$*.grid5000.fr
+  ssh $USER@frontend.$*.grid5000.fr
 }
 
 # Needed for grid5000 theme
