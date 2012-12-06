@@ -19,7 +19,7 @@ From Grid'5000 don't forget to setup the http proxy
 
 #### with wget
 
-	wget --no-check-certificate https://raw.github.com/pmorillon/grid5000-zsh-plugin/master/tools/install.sh -O - | zsh
+	wget --no-check-certificate https://raw.github.com/sbadia/grid5000-zsh-plugin/master/tools/install.sh -O - | zsh
 
 ### The manual way
 
@@ -30,7 +30,7 @@ From Grid'5000 don't forget to setup the http proxy
 
 2. Clone the repository
 
-		git clone https://github.com/pmorillon/grid5000-zsh-plugin.git ~/.oh-my-zsh/custom/plugins/grid5000
+		git clone https://github.com/sbadia/grid5000-zsh-plugin.git ~/.oh-my-zsh/custom/plugins/grid5000
 
 
 3. Install Grid'5000 theme
