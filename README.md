@@ -1,6 +1,6 @@
 A [Grid'5000](https://www.grid5000.fr) plugin for your [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) installation (functions, theme, auto-complete helpers, ...)
 
-![grid5000-zsh-plugin Theme](http://pmorillon.github.com/images/grid5000-zsh-plugin.png)
+![grid5000-zsh-plugin Theme](http://sbadia.github.com/img/zsh_g5k.png)
 
 ## Setup
 
