@@ -20,6 +20,6 @@ oar_remaining_time(){
     DATE_JOB_START=$(stat -c %Y $OAR_NODE_FILE)
     DATE_TMP=$OAR_JOB_WALLTIME_SECONDS
     ((DATE_TMP = (DATE_TMP - DATE_NOW + DATE_JOB_START) / 60))
-    echo -n "$DATE_TMP"
+    echo -n "~>${DATE_TMP}min"
   fi
 }

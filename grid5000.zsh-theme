@@ -1,6 +1,6 @@
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
-PROMPT='%{$fg[yellow]%}[%T] %{$fg[cyan]%}G5K$(oar_job_id)%{$reset_color%}~>%{$fg[yellow]%}$(oar_remaining_time)min%{$fg[cyan]%}  ❯ %{$fg[green]%}%~ \
+PROMPT='%{$fg[yellow]%}[%T] %{$fg[cyan]%}G5K$(oar_job_id)$(oar_remaining_time) ❯ %{$fg[green]%}%~ \
 $(git_prompt_info)\
 %{$fg[red]%}%(!.#.»)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
